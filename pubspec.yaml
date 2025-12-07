@@ -1,0 +1,27 @@
+name: brain_rot_collect
+description: A complex Gacha game.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5       # Pentru State Management (inima jocului)
+  confetti: ^0.7.0       # Pentru efectul de artificii
+  google_fonts: ^6.1.0   # Pentru fonturi moderne
+  animate_do: ^3.0.2     # Pentru animații de intrare UI
+  font_awesome_flutter: ^10.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^3.0.0
+  test: ^1.24.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
